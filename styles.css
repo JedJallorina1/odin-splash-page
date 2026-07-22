@@ -239,3 +239,7 @@ img
     object-fit: cover;
     flex:1;
 }
+
+a{
+    color:inherit;
+}
