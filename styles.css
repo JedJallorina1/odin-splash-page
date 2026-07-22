@@ -1,0 +1,241 @@
+/* Jed Jallorina */
+
+
+/* Fonts */
+
+
+*
+{
+    font-family:'Times New Roman', Times, serif
+
+}
+
+.hero-logo
+{
+    font-size: 24px;
+    color:#F9FAF8;
+    /*margin-right: auto;*/
+    align-self:center;
+    padding:20px;
+}
+.hero-secondary
+{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 20px;
+    cursor: pointer;
+}
+.hero-main
+{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 20px;
+}
+.information-header-text
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    align-self: center;
+    padding: 40px;
+}
+.illustration-subtext
+{
+    font-size: 16px;
+    color: #1F2937;
+    font-weight:lighter;
+    padding: 20px;
+    flex:1;
+}
+.quote
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+.quote-subtext
+{
+    font-size: 24px;
+    color: #1F2937;
+    align-self: self-end;
+}
+
+
+/* Containers and Elements */
+
+
+.container-1
+{
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.container-1-top
+{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap: 50px;
+    padding: 30px;
+}
+.container-1-bottom
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    gap: 20px;
+    padding: 50px;
+}
+.container-1-bottom-left
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.container-2
+{
+    display: flex;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 100px;
+    flex:1;
+}
+.container-2-bottom
+{
+    display:flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 30px;
+    flex:1;
+
+}
+
+
+.container-3
+{
+    background-color: #E5E7EB;
+    display: flex;
+}
+.container-3 div
+{
+    flex:1;
+}
+.container-3-inner
+{
+    display:flex;
+    flex:1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 200px;
+}
+
+
+.container-4
+{
+    background-color: white;
+    display: flex;
+
+}
+.container-4-inner
+{
+    display:flex;
+    flex: 1;
+    flex-direction: row;
+    margin: 200px;
+}
+.container-4-inner-left
+{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content:start;
+    align-items: end;
+}
+.container-4-inner-right
+{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.illustration-container
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.illustration-container div
+{
+    flex:1;
+}
+
+.call-to-action-container
+{
+    display: flex;
+    margin:20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-direction: row;
+    background-color: #1F2937;
+    flex:1;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+
+/* Elements */
+
+
+.blue-button
+{
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 20px;
+    cursor: pointer;
+    width:max-content;
+    border-radius:10px;
+}
+
+.white-button
+{
+    width:100px;
+    color: #F9FAF8;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 20px;
+    cursor: pointer;
+    border-radius:10px;
+    border-color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+}
+
+img
+{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    flex:1;
+}
