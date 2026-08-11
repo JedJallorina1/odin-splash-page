@@ -14,6 +14,7 @@ id INTEGER PRIMARY KEY,
 username TEXT,
 password TEXT)
 """)
+### CLEAR THE DB:
 ### cursor.execute("DELETE FROM userregistry")
 connection.commit()
 connection.close()
