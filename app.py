@@ -18,7 +18,7 @@ password TEXT)
 connection.commit()
 connection.close()
 
-
+# test
 
 @app.route("/createaccount", methods = ["POST"])
 def createAccount():
