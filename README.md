@@ -1,0 +1,1 @@
+This is the project I am using to learn basic app development fundamentals, including event handlers and python-based backends. 
